@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/stefanceriu/SCSafariPageController'
   s.author = { 'Stefan Ceriu' => 'stefan.ceriu@yahoo.com' }
   s.social_media_url = 'https://twitter.com/stefanceriu'
-  s.source = { :git => 'https://github.com/stefanceriu/SCSafariPageController.git', :tag => "v#{s.version}" }
+  s.source = { :git => 'https://github.com/mapbox/SCSafariPageController.git', :branch => "1ec5-xib-bundle" }
   s.license = { :type => 'MIT License', :file => 'LICENSE' }
   s.source_files  = 'SCSafariPageController/**/*.{h,m}'
   s.resources  = 'SCSafariPageController/**/*.xib'
